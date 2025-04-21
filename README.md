@@ -21,26 +21,25 @@
 
 Установка и запуск:
 
-1. Клонировать проект
+1. Клонировать проект:
 
-git clone https://github.com/BM021/CashFlow.git
-cd CashFlowProject
+ - git clone https://github.com/BM021/CashFlow.git
 
 2. Создать либо активировать виртуальное окружение:
-   Создание venv: python -m venv venv
-  # MAC: source venv/bin/activate  
-  # Windows: venv\Scripts\activate
+  - Создание venv: python -m venv venv
+  - MAC: source venv/bin/activate  
+  - Windows: venv\Scripts\activate
 
 3. Установить зависимости:
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 4. Применить миграции:
-   python manage.py makemigrations
-   python manage.py migrate
+   - python manage.py makemigrations
+   - python manage.py migrate
 
 5. Создать суперпользователя:
 
-   python manage.py createsuperuser
+   - python manage.py createsuperuser
 
    - далее создаем логил для админа: admin
    - далее вводим email (необезательно)
@@ -49,12 +48,12 @@ cd CashFlowProject
    - Нажимаем y для подтверждения если не уверены то клавишу N.
 
 6. Запускаем сервер:
-   python manage.py runserver
+   - python manage.py runserver
 
 
 7. Переходим по ссылке:
 
 Интерфейс:
-Админ-панель: http://localhost:8000/admin/
+- Админ-панель: http://localhost:8000/admin/
 
-API: http://localhost:8000/api/
+- API: http://localhost:8000/api/
